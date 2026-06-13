@@ -12,7 +12,7 @@ The goal of this project was to gain hands-on experience with cloud security mon
 
 ## Lab Architecture
 
-<img width="391" height="1003" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/2d6b3877-532e-40eb-b2e2-765ae810dc18" />
+<img width="462" height="1067" alt="image" src="https://github.com/user-attachments/assets/ef24b430-529b-410f-8456-0ef30dd77440" />
 
 ### Data Flow
 
@@ -88,7 +88,7 @@ GeoIP enrichment revealed attack traffic originating from multiple geographic re
 
 Event ID 4625 indicates a failed authentication attempt and served as the primary indicator for identifying brute-force activity.
 
-<img width="2027" height="1121" alt="Failed Logon Events" src="https://github.com/user-attachments/assets/50a7868d-94a3-41ce-b2e6-ecdb13fa5998" />
+<img width="1180" height="1072" alt="image" src="https://github.com/user-attachments/assets/186d73e8-005b-4568-ad63-89ff914cf11a" />
 
 ---
 
@@ -96,7 +96,7 @@ Event ID 4625 indicates a failed authentication attempt and served as the primar
 
 Microsoft Sentinel Workbooks were used to visualize attack sources globally after GeoIP enrichment.
 
-<img width="1145" height="514" alt="Attack Map" src="https://github.com/user-attachments/assets/db2d77b1-7758-494f-ad67-ca891470772e" />
+<img width="1192" height="543" alt="image" src="https://github.com/user-attachments/assets/4fff904b-e9b4-49f3-8486-9bfc9a2b8862" />
 
 ---
 
@@ -104,7 +104,7 @@ Microsoft Sentinel Workbooks were used to visualize attack sources globally afte
 
 The following usernames were among the most frequently targeted during brute-force attempts.
 
-<img width="567" height="1071" alt="Top Usernames" src="https://github.com/user-attachments/assets/338ab020-ae25-43f1-bd76-5d22b9367e18" />
+<img width="549" height="1073" alt="image" src="https://github.com/user-attachments/assets/d1dfd19e-6e48-4b64-b72f-19560b2aea9d" />
 
 ---
 
@@ -112,7 +112,7 @@ The following usernames were among the most frequently targeted during brute-for
 
 Repeated failed authentication attempts were traced to a small number of highly active source IP addresses.
 
-<img width="534" height="650" alt="image" src="https://github.com/user-attachments/assets/92c231a2-08be-4ae7-88ea-13fb28498f5b" />
+<img width="575" height="695" alt="image" src="https://github.com/user-attachments/assets/ca889fe0-3760-445b-9ece-f8b39154da4a" />
 
 ---
 
